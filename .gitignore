@@ -1,0 +1,11 @@
+### Terraform template
+# Compiled files
+*.tfplan
+*.tfvars
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+
+# Module directory
+.terraform/
+.terraform.lock.hcl
