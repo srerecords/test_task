@@ -9,3 +9,6 @@
 # Module directory
 .terraform/
 .terraform.lock.hcl
+
+.tmp/*
+!.tmp/.gitkeep

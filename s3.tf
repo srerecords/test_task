@@ -44,6 +44,6 @@ module "s3_logs_bucket" {
     Terraform   = true
     Environment = var.env
     Name        = var.bucket_name
-    Service     = "copy_life_to_s3"
+    Service     = var.service_name
   }
 }

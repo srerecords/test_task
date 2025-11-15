@@ -14,3 +14,13 @@ variable "bucket_name" {
   type        = string
   default     = "saved-files-7777"
 }
+variable "service_name" {
+  description = "Service name"
+  type        = string
+  default     = "copy_life_to_s3"
+}
+
+variable "lambda_relative_path" {
+  description = "DO NOT CHANGE. This will be overridden by Terragrunt when needed."
+  default     = "/./"
+}
